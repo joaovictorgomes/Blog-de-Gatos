@@ -45,6 +45,9 @@ header div {
 
 .header {
     padding: 1.2rem 2.8rem;
+
+    --startY: -100%;
+    animation: move .2s;
 }
 
 /* Estilo da imagem do cabeçalho */
@@ -175,12 +178,25 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 1.6rem;
+
+    --startY: 100%;
+    animation: move .2s;
 }
 
 footer p {
     font-size: 1.6rem;
     color: var(--color-base-white);
 }
+
+
+/* animaçao  */
+
+@keyframes move {
+    from {
+        transform: translateY( var(--startY));
+    }
+}
+
 
 /* Media query para telas maiores */
 @media (min-width: 1120px) {
