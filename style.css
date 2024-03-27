@@ -104,15 +104,14 @@ main {
     font-size: 2.4rem;
     font-weight: bold;
     color: var(--colo-base-fonts-h1);
-    text-align: center; /* Adicionado para centralizar o título */
+    text-align: start; 
 }
 
 /* Estilo dos botões */
 .btn {
     display: flex;
-    justify-content: center; /* Centraliza os botões */
     gap: 1.2rem;
-    margin-top: 1rem; /* Adicionado para espaçamento entre o título e os botões */
+    margin-top: 1rem;
 }
 
 .btn button {
@@ -129,10 +128,10 @@ main {
 
 /* Estilo dos parágrafos */
 .page > p {
-    margin-top: 1.5rem; /* Alterado o valor para espaçamento do parágrafo abaixo do título */
+    margin-top: 1.5rem; 
     font-size: 1.6rem;
     color: var(--colo-base-fonts-p);
-    text-align: justify; /* Adicionado alinhamento justificado */
+    text-align: justify; 
 }
 
 /* Estilo das colunas */
