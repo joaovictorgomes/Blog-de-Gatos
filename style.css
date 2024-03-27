@@ -192,7 +192,7 @@ footer p {
     main {
         overflow-y: scroll;
     }
-    
+
     .header {
         padding: 1.2rem 11.2rem;
         gap: 2.5rem;
@@ -242,6 +242,7 @@ footer p {
         margin-bottom: 3.9rem;
     }
     .article h1 {
+        text-align: start;
         font-size: 2.4rem;
         margin-top: 4.4rem;
     }
